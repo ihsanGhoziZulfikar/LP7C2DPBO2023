@@ -37,7 +37,27 @@ Program terdiri darai 9 kelas yaitu:
 - memiliki Game, Handler
 4. Handler
 - render, loop, tambah, dan hapus objek
+- memiliki GameObject dan Food
+5. Player
+- anak kelas GameObject
+- objek yang dijalankan user
+6. Food
+- anak kelas GameObject
+- objek diam, dihapus dan dibuat baru pada posisi lain saat bersentuhan dengan Player
+7. Display
+- mengontrol frame
+- memiliki game
+8. GameInterface
+- interface untuk objek game
+9. GameObject
+- implementasi GameInterface
+- menyimpan tipe, posisi dan kecepatan objek
 
+## Alur
+- Program menampilkan frame berisi Game
+- user mengklik WASD untuk memindahkan objek Player
+- jika Player berganti arah, maka score bertambah 1
+- JIka Player bersentuhan dengan Food, maka socre bertambah 10, Food dihapus, lalu ditambahkan Food baru pada posisi acak
 
 ## Dokumentasi
 ![ss2](https://user-images.githubusercontent.com/100748074/233686228-31a2d9d1-a191-42e1-9132-d397b332c631.PNG)
