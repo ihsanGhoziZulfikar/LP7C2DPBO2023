@@ -2,9 +2,9 @@ Saya Ihsan Ghozi Zulfikar NIM 2103303 mengerjakan soal Latihan Praktikum 7 dalam
 
 ## Deskripsi
 Modiﬁkasi kode yang sudah diberikan, dengan ketentuan sebagai berikut:
-● Pemain mengendalikan bola. Setiap kali bola bergerak, skor pemain
+- Pemain mengendalikan bola. Setiap kali bola bergerak, skor pemain
 bertambah +1.
-● Skor hanya bertambah jika pemain berbelok, bukan bergerak berurutan.
+- Skor hanya bertambah jika pemain berbelok, bukan bergerak berurutan.
 Detail:
 - Saat pertama kali membuka program, pemain bergerak ke arah
 manapun, skor +1.
